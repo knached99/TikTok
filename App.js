@@ -1,18 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
-import {Post} from './components/Post';
+import Post from './components/Post';
 
-export default function App() {
-  return (
-
+const App: ()  => React$Node = () => {
+    return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.text}>You have gained 250,900 followers on TikTok! Congratulations, Khaled, on becoming a TikTok Star!</Text>
       <Post />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -26,3 +25,5 @@ const styles = StyleSheet.create({
     color: '#fff',
   }
 });
+
+export default App;

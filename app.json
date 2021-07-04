@@ -1,14 +1,16 @@
 {
+  //"./assets/icon.png"
   "expo": {
     "name": "TikTok",
     "slug": "TikTok",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://media3.giphy.com/media/jS2pgTIhhTuAqneaF0/giphy.gif?cid=790b761153367d070924e6dec0cccba724e4a6fef947e229&rid=giphy.gif&ct=g",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "https://media3.giphy.com/media/jS2pgTIhhTuAqneaF0/giphy.gif?cid=790b761153367d070924e6dec0cccba724e4a6fef947e229&rid=giphy.gif&ct=g",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
+      
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +24,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#000"
       }
     },
     "web": {
